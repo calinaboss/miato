@@ -41,4 +41,4 @@ while True:
     except subprocess.CalledProcessError as e:
         print(f"Comando Git fallito: {e}")
         print("Controlla il repository e la connessione, poi riprova.")
-        time.sleep(5)
+        time.sleep(2)
